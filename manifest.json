@@ -1,0 +1,17 @@
+{
+	"name": "MFL Chrome",
+	"version": "1.0",
+	"manifest_version": 2,
+	"description": "MyFantasyLeague.com Chrome Extension",
+	"browser_action": {
+		"default_icon": "img/mfl_logo.png",
+		"default_popup": "scoring.html"
+	},
+	"permissions": [
+		"tabs",
+		"http://*.myfantasyleague.com/*"
+	],
+	"background": {
+		"background_page": "background.html"
+	}
+}
